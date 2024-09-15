@@ -108,8 +108,8 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `v@1.7`, type: ActivityType.Watching }],
-      status: 'idle',
+      activities: [{ name: `赤い葉を通り抜ける雨音、傘の上に軽く落ちる雨音を聞くと...私はしばしの平穏を得る。`, type: ActivityType. }],
+      status: 'online',
     });
   }, 2000); 
 });
